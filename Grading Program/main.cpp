@@ -6,7 +6,7 @@ int main()
 {
     int score;
     
-    cout << "Enter Grade: ";
+    cout << "Enter Grade out of 100: ";
     cin >> score;
 
     if(score == 100) {
@@ -21,7 +21,7 @@ int main()
     } else if(score < 70 && score >= 60) {
         cout << "Grade: " << score << " D" << endl;        
     } else if(score < 60) {
-        cout << "Grade: " << score << " F" << endl;        
+        cout << "Grade: " << score << " F" << endl;
     }
 
     return 0;
