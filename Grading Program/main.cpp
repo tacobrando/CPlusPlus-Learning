@@ -6,7 +6,7 @@ int main()
 {
     int score;
     
-    cout << "Enter Grade: ";
+    cout << "Enter Grade out of 100: ";
     cin >> score;
 
     if(score == 100) {

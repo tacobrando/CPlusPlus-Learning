@@ -12,14 +12,14 @@ int main()
     while (num != iterations){
         iterations++;
         if(iterations == 10){
-            cout << "Wow, you're more patient then I am, you win.";
+            cout << "Wow, you're more patient then I am, you win." << endl;
             return 0;
         } else {
             cout << "Enter a number other than " << iterations << ": ";
             cin >> num;
         }
     }
-    cout << "Hey! You weren't supposed to choose " << iterations << '!';
+    cout << "Hey! You weren't supposed to choose " << iterations << '!' << endl;;
     
     return 0;
 }
