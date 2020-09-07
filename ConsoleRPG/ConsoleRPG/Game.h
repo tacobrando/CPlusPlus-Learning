@@ -1,12 +1,10 @@
 #pragma once
 
+#include "Character.h"
 #include "Functions.h"
 #include <iostream>
-#include <string>
 #include <iomanip>
 #include <ctime>
-
-using namespace std;
 
 class Game
 {
